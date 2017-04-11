@@ -47,7 +47,7 @@ if setuptools_version:
 
 # release version number
 box2d_version  = '2.3'
-release_number = 2
+release_number = 3
 
 # create the version string
 version_str = "%s.%s" % (box2d_version, release_number)
@@ -151,10 +151,10 @@ CLASSIFIERS = [
 write_init()
 
 setup_dict = dict(
-    name             = "Box2D",
+    name             = "Box2D-kengz",
     version          = version_str,
-    author           = "Ken Lauer",
-    author_email     = "sirkne at gmail dot com",
+    author           = "Ken Lauer (uploaded by kengz)",
+    author_email     = "kengzwl@gmail.com",
     description      = "Python Box2D",
     license          = "zlib",
     url              ="http://pybox2d.googlecode.com/",
